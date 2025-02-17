@@ -1,0 +1,24 @@
+{
+  "name": "@saber-cli-dev/saber-b",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "saberlayer <870014295@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/",
+     "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/b.test.js"
+  }
+}
