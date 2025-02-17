@@ -1,6 +1,6 @@
 {
   "name": "@saber-cli-dev/saber-b",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "saberlayer <870014295@qq.com>",
   "homepage": "",
@@ -16,7 +16,7 @@
   ],
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/",
-     "access": "public"
+    "access": "public"
   },
   "scripts": {
     "test": "node ./__tests__/b.test.js"

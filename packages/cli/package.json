@@ -1,13 +1,15 @@
 {
   "name": "@saber-cli-dev/saber-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "saberlayer <870014295@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main":"src/cli.js",
+  "main": "src/cli.js",
   "module": "dist/cli.module.js",
-  "bin": { "saber-cli": "bin/cli.js" }, 
+  "bin": {
+    "saber-cli": "bin/cli.js"
+  },
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -18,7 +20,7 @@
   ],
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/",
-     "access": "public"
+    "access": "public"
   },
   "scripts": {
     "test": "node ./__tests__/cli.test.js"
