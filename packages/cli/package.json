@@ -25,7 +25,9 @@
     "test": "node ./__tests__/cli.test.js"
   },
   "dependencies": {
-    "yargs": "^17.7.2"
+    "yargs": "^17.7.2",
+    "@saber-cli-dev/saber-a": "^1.0.3",
+    "@saber-cli-dev/saber-b": "^1.0.3"
   },
   "type": "module"
 }
