@@ -1,6 +1,6 @@
 {
   "name": "@saber-cli-dev/saber-cli",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "> TODO: description",
   "author": "saberlayer <870014295@qq.com>",
   "homepage": "",
@@ -25,9 +25,9 @@
     "test": "node ./__tests__/cli.test.js"
   },
   "dependencies": {
-    "yargs": "^17.7.2",
     "@saber-cli-dev/saber-a": "^1.0.3",
-    "@saber-cli-dev/saber-b": "^1.0.3"
+    "@saber-cli-dev/saber-b": "^1.0.3",
+    "yargs": "^17.7.2"
   },
   "type": "module"
 }
